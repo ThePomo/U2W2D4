@@ -1,4 +1,23 @@
-$hero-bg-color: #744FFE;
-.hero-section {
-    background-color: $hero-bg-color; 
+
+$circle-bg-color: #fdecd3;  
+$icon-color: #cfa670;       
+$circle-size: 60px;         
+$icon-size: 24px;           
+
+
+.icon-circle {
+  width: $circle-size;
+  height: $circle-size;
+  background-color: $circle-bg-color;
+  border-radius: 50%; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+
+ 
+  .icon-image {
+    width: $icon-size;
+    height: $icon-size;
+    fill: $icon-color; 
+  }
 }

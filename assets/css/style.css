@@ -1,5 +1,16 @@
-.hero-section {
-  background-color: #744FFE;
+.icon-circle {
+  width: 60px;
+  height: 60px;
+  background-color: #fdecd3;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon-circle .icon-image {
+  width: 24px;
+  height: 24px;
+  fill: #cfa670;
 }
 
 /*# sourceMappingURL=style.css.map */
